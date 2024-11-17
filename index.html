@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <title>landing page</title>
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <i class="fa-solid fa-burger" id="nav-logo"> food</i>
+
+        <ul id="nav-list">
+          <li class="nav-item active">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Peça aqui</button>
+
+        <button id="mobile-btn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </nav>
+
+      <div id="mobile-menu">
+        <ul id="mobile-nav-list">
+          <li class="nav-item">
+            <a href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#testimonials">Avaliações</a>
+          </li>
+        </ul>
+
+        <button class="btn-default">Peça aqui</button>
+      </div>
+    </header>
+
+    <main id="content">
+      <section id="home">
+        <div class="shape"></div>
+        <div id="cta">
+          <h1 class="title">
+            O sabor que vai até
+            <span>você</span>
+          </h1>
+
+          <p class="description">chega no lanchão parcerin firmeza</p>
+
+          <div id="cta-buttons">
+            <a href="#" class="btn-default"> Ver Cardápio </a>
+
+            <a href="tel:+555555555" id="phone-button">
+              <button class="btn-default">
+                <i class="fa-solid fa-phone"></i>
+              </button>
+              (98) 984531280
+            </a>
+          </div>
+
+          <div class="social-media-buttons">
+            <a href="">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+          </div>
+        </div>
+
+        <div id="banner">
+          <img src="assets/hero.png" alt="" />
+        </div>
+      </section>
+
+      <section id="menu">
+        <h2 class="section-title">Cardápio</h2>
+        <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+        <div id="dishes">
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="assets/dish.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Franguin com temperos</h3>
+
+            <span class="dish-description">
+              tudo que a de bom nesse frango frito!!!
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+
+              <span> (500+) </span>
+            </div>
+            <div class="dish-price">
+              <h4>R$44,99</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="assets/dish2.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Misto Quente</h3>
+
+            <span class="dish-description">
+              Aquele queijo e presunto no capricho!!!
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+
+              <span> (900+) </span>
+            </div>
+            <div class="dish-price">
+              <h4>R$11,99</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="assets/dish3.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Saladex de Frutas</h3>
+
+            <span class="dish-description">
+              So fruta da maxima qualidade pae, confia!!!
+            </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+
+              <span> (300+) </span>
+            </div>
+            <div class="dish-price">
+              <h4>R$29,99</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+
+          <div class="dish">
+            <div class="dish-heart">
+              <i class="fa-solid fa-heart"></i>
+            </div>
+
+            <img src="assets/dish4.png" class="dish-image" alt="" />
+
+            <h3 class="dish-title">Macarronada de camarão</h3>
+
+            <span class="dish-description"> Essa é os krlh de bom!!! </span>
+
+            <div class="dish-rate">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+
+              <span> (4750+) </span>
+            </div>
+            <div class="dish-price">
+              <h4>R$54,99</h4>
+              <button class="btn-default">
+                <i class="fa-solid fa-basket-shopping"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <img src="assets/chef.png" id="testimonial-chef" alt="" />
+
+        <div id="testimonials-content">
+          <h2 class="section-title">Depoimentos</h2>
+          <h3 class="section-subtitle">O que os clientes falam sobre nós</h3>
+
+          <div id="feedbacks">
+            <div class="feedback">
+              <img src="assets/avatar.png" class="feedback-avatar" alt="" />
+
+              <div class="feedback-content">
+                <p>
+                  Fulana de tal
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "Gabriel da sensi invejada amassa dms ntj"
+                </p>
+              </div>
+            </div>
+
+            <div class="feedback">
+              <img src="assets/avatar.png" class="feedback-avatar" alt="" />
+
+              <div class="feedback-content">
+                <p>
+                  outra Fulana de tal
+                  <span>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </span>
+                </p>
+                <p>
+                  "outro algo aleatorio
+                  cccccccccccc cc ccccccccc"
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <button class="btn-default">Ver mais avaliações</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="assets/wave.svg" alt="" />
+
+      <div id="footer-itens">
+        <span id="copyright"> &copy 2024 Gabriel Aguiar </span>
+
+        <div class="social-media-buttons">
+          <a href="">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
