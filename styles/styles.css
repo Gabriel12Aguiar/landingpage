@@ -12,6 +12,7 @@
   --color-primary-4: #ffcb45;
   --color-primary-5: #f8d477;
   --color-primary-6: #e9a209;
+  --color-primary-6: #b11226;
 
   --color-neutrall-0: #fff;
   --color-neutral-1: #1d1d1d;
@@ -40,7 +41,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-primary-4);
+  background-color: var(--color-primary-6);
   border-radius: 12px;
   padding: 10px 14px;
   font-weight: 600;
@@ -50,7 +51,7 @@ section {
 }
 
 .btn-default:hover {
-  background-color: var(--color-primary-5);
+  background-color: var(--color-primary-6);
 }
 
 .social-media-buttons {
